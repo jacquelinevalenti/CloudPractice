@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderApp", "ServiceBus\SenderApp.csproj", "{19C4A94B-7DA0-4A58-AB7C-2E9BFF5E1CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiverApp", "ReceiverApp\ReceiverApp.csproj", "{10DFDDB6-DF75-496D-AC4A-73DE4A38A3C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C4A94B-7DA0-4A58-AB7C-2E9BFF5E1CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C4A94B-7DA0-4A58-AB7C-2E9BFF5E1CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C4A94B-7DA0-4A58-AB7C-2E9BFF5E1CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C4A94B-7DA0-4A58-AB7C-2E9BFF5E1CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DFDDB6-DF75-496D-AC4A-73DE4A38A3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DFDDB6-DF75-496D-AC4A-73DE4A38A3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DFDDB6-DF75-496D-AC4A-73DE4A38A3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DFDDB6-DF75-496D-AC4A-73DE4A38A3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C10C8B0-258F-4E5C-A76E-5CEE15B8C151}
+	EndGlobalSection
+EndGlobal
